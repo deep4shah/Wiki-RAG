@@ -87,7 +87,7 @@ ollama pull nomic-embed-text
 
 **3. Clone this repo and install Python dependencies:**
 ```bash
-git clone https://github.com/<your-username>/wiki-rag.git
+ git clone https://github.com/deep4shah/Wiki-RAG.git
 cd wiki-rag
 python -m venv venv
 source venv/bin/activate      # Windows: venv\Scripts\activate
