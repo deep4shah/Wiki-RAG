@@ -4,6 +4,8 @@ A fully local, free-to-run Retrieval-Augmented Generation (RAG) system that answ
 
 No API keys, no cloud costs — everything runs on your machine via [Ollama](https://ollama.com).
 
+ ![Wiki-RAG Demo](assets/sample_ss3.png)
+
 ## Why this project
 
 Most introductory RAG tutorials skip the parts that matter in production: chunking strategy, retrieval evaluation, and clean modular code. This project is built to demonstrate:
