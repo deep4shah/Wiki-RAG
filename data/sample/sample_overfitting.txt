@@ -1,0 +1,7 @@
+[SAMPLE CACHED ARTICLE - for repo inspection only]
+
+This is a placeholder showing the format of cached Wikipedia articles
+that data_loader.py stores in data/raw/ after fetching. Real cached
+articles are excluded from git (see .gitignore) to keep the repo
+lightweight; they are regenerated automatically the first time you
+run `python app.py --build-index`.
