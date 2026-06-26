@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Data (cached articles + vector store are large/regenerable, keep repo light)
+data/raw/*.txt
+data/chroma_db/
+
+# Keep a couple of sample cached articles so the repo is inspectable without
+# running the full pipeline
+!data/sample/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
